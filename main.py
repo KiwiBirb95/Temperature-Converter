@@ -29,7 +29,7 @@ def temp_conversion(min_temp, max_temp):
 
 # Displays Celsius to Fahrenheit
 def conversion_formula(fah):
-    cel = fah * (5.0 / 9.0) - 32
+    cel = (5.0 / 9.0) * (fah - 32)
     return cel
 
 if __name__ == "__main__":
