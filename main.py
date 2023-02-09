@@ -21,3 +21,5 @@ def conversion_formula(cel):
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# This is a test comment
