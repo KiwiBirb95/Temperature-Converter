@@ -11,7 +11,7 @@ def main():
 
 def temp_conversion(min_temp, max_temp):
     for x in range(min_temp, max_temp + 1):
-        print("celsius=", x, "fahrenheit=", conversion_formula(x))
+        print("Celsius =", x, "Fahrenheit =", conversion_formula(x))
 
 
 def conversion_formula(cel):
@@ -23,3 +23,4 @@ if __name__ == "__main__":
     sys.exit(main())
 
 # This is a test comment
+# This is annoying
